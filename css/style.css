@@ -1,0 +1,376 @@
+@import url(reset.css);
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: #fff;
+    background-color: #101029;
+    background-image: url(../img/Ellipse\ 4.svg), url(../img/Ellipse\ 5.svg);
+    background-repeat: no-repeat;
+    background-position: right 399px, right 548px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    padding-bottom: 28px;
+}
+
+.container{
+    max-width: 1110px;
+
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+
+    background-color: rgba(30, 30, 55, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 0;
+    border-right: 0;
+
+    margin-top: 106px;
+    margin-bottom: 89px;
+    padding: 18px 0;
+}
+header .header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_content h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+header .header_content ul{
+    display: flex;
+    gap: 23px;
+}
+header .header_content ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+main{
+    display: flex;
+    gap: 68px;
+}
+
+main .login{
+    width: 382px;
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(30, 30, 55, 0.5);
+    border-radius: 10px;
+
+    padding: 24px 32px 0 32px;
+}
+main .login form{
+    display: flex;
+    flex-direction: column;
+}
+main .login form .loging{
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+
+    border: 0.5px solid #FFFFFF;
+    border-radius: 48px;
+}
+main .login form .loging svg{
+    padding-right: 10px;
+}
+main .login form .email{
+    margin-bottom: 20px;
+    padding-left: 22.5px;
+}
+main .login form .password{
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+main .login form .loging input{
+    width: 318px;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #fff;
+
+    border: 0;
+    background: transparent;
+}
+main .login form .checkbox{
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 16px;
+}
+main .login form .checkbox div{
+    display: flex;
+    align-items: center;
+}
+main .login form .checkbox div input{
+    width: 14px;
+    height: 14px;
+
+    margin-right: 8px;
+}
+main .login form input[type="button"]{
+    align-self: flex-end;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #fff;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 46px;
+    border-style: none;
+
+    padding: 14px 40px;
+    margin-top: 45px;
+}
+
+main .register .row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+main .register .row:not(:last-child){
+    margin-bottom: 24px;
+}
+main .register .row:last-child{
+    align-items: start;
+}
+main .register .row label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+main .register .row input:not(input[type="checkbox"]){
+    width: 256px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    border: 0.5px solid #FFFFFF;
+    border-radius: 48px;
+
+    background: transparent;
+    color: #fff;
+
+    padding-left: 24px;
+    margin-top: 8px;
+}
+main .register form .row input[type="button"]{
+    width: max-content;
+    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 46px;
+    border-style: none;
+
+    padding: 14px 40px;
+}
+main .register form .row .checkbox{
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    width: 100%;
+
+    background: black;
+    
+    margin-top: 140px;
+}
+footer div.container{
+    padding-top: 52px;
+    padding-bottom: 26px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer form label{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-bottom: 20px;
+}
+footer form .subscribe{
+    width: 410px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 0.5px solid #D0D0D0;
+    border-radius: 48px;
+}
+footer form .subscribe div{
+    display: flex;
+    align-items: center;
+}
+footer form div .email_icon{
+    padding-left: 21.5px;
+}
+footer form input{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #fff;
+    background: transparent;
+
+    border-style: none;
+
+    padding-left: 9.5px;
+}
+footer form input::placeholder{
+    color: #fff;
+}
+footer form div .send_icon{
+    width: max-content;
+
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 48px;
+    border-style: none;
+}
+footer form div .send_icon svg{
+    padding: 12px 15px 12px 20px;
+}
+footer form div .send_icon:hover{
+    cursor: pointer;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 60px;
+}
+footer .links .link{
+    width: 238px;
+}
+footer .links div h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-transform: uppercase;
+    
+    padding-bottom: 9.5px;
+}
+footer .links div .line{
+    border-top: 0.5px solid #D0D0D0;
+
+    padding-bottom: 16.5px;
+}
+
+footer .links .connect .support{
+    font-weight: 400;
+    font-size: 14px;
+}
+footer .links .connect .social_media{
+    display: flex;
+    gap: 12px;
+
+    padding-top: 12px;
+}
+footer .links .connect .social_media a{
+    border: 0.5px solid #D0D0D0;
+    border-radius: 100%;
+
+    padding: 10px 10px 7px 10px;
+}
+
+footer .links .mobile_app .mobile{
+    display: flex;
+    align-items: center;
+
+    border: 0.5px solid #FFFFFF;
+    border-radius: 11px;
+}
+footer .links .mobile_app .app_store{
+    width: 163px;
+
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 10.89px;
+
+    margin-bottom: 8px;
+}
+footer .links .mobile_app .google_play{
+    width: 160px;
+
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+}
+footer .links .mobile_app .mobile svg{
+    padding-right: 11.85px;
+}
+footer .links .mobile_app .mobile span{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+}
+footer .links .mobile_app .mobile p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    padding-bottom: 2px;
+}
+footer .links .mobile_app .mobile:hover{
+    cursor: pointer;
+}
+
+footer .links .link ul{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-transform: capitalize;
+
+    list-style-image: url(../img/Polygon\ 1.svg);
+
+    margin-left: 10px;
+}
+footer .links .link ul li{
+    padding-left: 4px;
+    padding-bottom: 8px;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 52px;
+}
+footer .copyright span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}

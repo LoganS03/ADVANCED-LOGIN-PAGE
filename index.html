@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header_content container">
+            <h1>Login / Register Account</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Login / Register</a></li>
+            </ul>    
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="login">
+            <h2>Login</h2>
+
+            <form action="#">
+                <div>
+                    <div class="email loging">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.5 4.5C16.5 3.675 15.825 3 15 3H3C2.175 3 1.5 3.675 1.5 4.5V13.5C1.5 14.325 2.175 15 3 15H15C15.825 15 16.5 14.325 16.5 13.5V4.5ZM15 4.5L9 8.25L3 4.5H15ZM15 13.5H3V6L9 9.75L15 6V13.5Z" fill="white"/>
+                        </svg>
+                        <input type="email" placeholder="Email...">
+                    </div>
+    
+                    <div class="password loging">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.0005 9H4.99953M13.0005 9H14.1C14.3387 9 14.5676 9.0885 14.7364 9.24603C14.9052 9.40356 15 9.61722 15 9.84V15.16C15 15.2703 14.9768 15.3795 14.9315 15.4815C14.8863 15.5834 14.82 15.676 14.7364 15.754C14.6529 15.832 14.5536 15.8938 14.4444 15.9361C14.3353 15.9783 14.2182 16 14.1 16H3.90003C3.78184 16 3.66481 15.9783 3.55562 15.9361C3.44642 15.8938 3.34721 15.832 3.26363 15.754C3.18006 15.676 3.11377 15.5834 3.06854 15.4815C3.02331 15.3795 3.00003 15.2703 3.00003 15.16V9.84C3.00003 9.61722 3.09485 9.40356 3.26363 9.24603C3.43242 9.0885 3.66134 9 3.90003 9H4.99953H13.0005ZM13.0005 9V5.5C13.0005 4.3338 12.1995 2 9.00003 2C5.80053 2 4.99953 4.3338 4.99953 5.5V9H13.0005Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <input type="password" placeholder="Password...">
+                    </div>
+    
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Remember me</label>    
+                        </div>
+                        <a href="#"><u>Forgot password?</u></a>
+                    </div>    
+                </div>
+
+                <input type="button" value="Login">
+            </form>
+        </div>
+
+        <div class="register">
+            <h2>Register (New Users)</h2>
+
+            <form action="#">
+                <div class="row">
+                    <div>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <label for="email">E-mail Address</label><br>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="phone" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div>
+                        <label for="dname">Display Name</label><br>
+                        <input type="text" id="dname" placeholder="Display Name">
+                    </div>
+                    <div>
+                        <label for="Password">Password</label><br>
+                        <input type="Password" id="Password" placeholder="Password">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="checkbox">
+                        <input type="checkbox" id="add_me">
+                        <label for="add_me">Add me to the marketing list</label>
+                    </div>
+                    <div>
+                        <input type="button" value="Register">
+                    </div>
+                </div>    
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <form action="#">
+                <label for="subscribe">Enter your email to subscribe to our newsletter</label>
+                <div class="subscribe">
+                    <div>
+                        <svg class="email_icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.5 4.5C16.5 3.675 15.825 3 15 3H3C2.175 3 1.5 3.675 1.5 4.5V13.5C1.5 14.325 2.175 15 3 15H15C15.825 15 16.5 14.325 16.5 13.5V4.5ZM15 4.5L9 8.25L3 4.5H15ZM15 13.5H3V6L9 9.75L15 6V13.5Z" fill="white"/>
+                        </svg>
+                        
+                        <input type="email" id="subscribe" placeholder="Your email">    
+                    </div>
+
+                    <div class="send_icon">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.912 9.99999H3L1.023 2.13499C1.01034 2.08928 1.00263 2.04234 1 1.99499C0.978005 1.27399 1.772 0.773987 2.46 1.10399L21 9.99999L2.46 18.896C1.78 19.223 0.996005 18.737 1 18.029C1.00203 17.9657 1.01314 17.9031 1.033 17.843L2.5 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                    </div>
+                </div>
+            </form>
+
+            <div class="links">
+                <div class="link connect">
+                    <h3>Connect</h3>
+                    <div class="line"></div>
+                    <a href="#" class="support">support@curios.com</a>
+                    <div class="social_media">
+                        <a href="#">
+                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1.375C10.1333 1.375 10.4 1.375 11.2667 1.4375C13.4667 1.5 14.4667 2.5 14.5333 4.5C14.6 5.3125 14.6 5.5 14.6 7.5C14.6 9.5 14.6 9.75 14.5333 10.5C14.4667 12.5 13.4 13.5 11.2667 13.5625C10.4 13.625 10.2 13.625 8 13.625C5.86667 13.625 5.6 13.625 4.8 13.5625C2.6 13.5 1.6 12.5 1.53333 10.5C1.46667 9.6875 1.46667 9.5 1.46667 7.5C1.46667 5.5 1.46667 5.25 1.53333 4.5C1.6 2.5 2.66667 1.5 4.8 1.4375C5.6 1.375 5.86667 1.375 8 1.375ZM8 0C5.8 0 5.53333 0 4.73333 0.0625C1.8 0.1875 0.2 1.6875 0.0666667 4.4375C0 5.1875 0 5.4375 0 7.5C0 9.5625 0 9.8125 0.0666667 10.5625C0.2 13.3125 1.8 14.8125 4.73333 14.9375C5.53333 15 5.8 15 8 15C10.2 15 10.4667 15 11.2667 14.9375C14.2 14.8125 15.8 13.3125 15.9333 10.5625C16 9.8125 16 9.5625 16 7.5C16 5.4375 16 5.1875 15.9333 4.4375C15.8 1.6875 14.2 0.1875 11.2667 0.0625C10.4667 0 10.2 0 8 0ZM8 3.625C5.73333 3.625 3.86667 5.375 3.86667 7.5C3.86667 9.625 5.73333 11.375 8 11.375C10.2667 11.375 12.1333 9.625 12.1333 7.5C12.1333 5.375 10.2667 3.625 8 3.625ZM8 10C6.53333 10 5.33333 8.875 5.33333 7.5C5.33333 6.125 6.53333 5 8 5C9.46667 5 10.6667 6.125 10.6667 7.5C10.6667 8.875 9.46667 10 8 10ZM12.2667 2.625C11.7333 2.625 11.3333 3 11.3333 3.5C11.3333 4 11.7333 4.375 12.2667 4.375C12.8 4.375 13.2 4 13.2 3.5C13.2 3 12.8 2.625 12.2667 2.625Z" fill="white"/>
+                            </svg>
+                        </a>
+
+                        <a href="#">
+                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.65821 9.17502L6.37417 13.0909C6.80023 13.0909 6.94225 12.9511 7.15528 12.7413L9.07255 10.9931L12.9781 13.7902C13.6882 14.2098 14.1853 14 14.3983 13.1609L16.9547 1.27324C17.1677 0.224335 16.5996 -0.195228 15.8895 0.0844807L0.764382 5.74859C-0.229757 6.09822 -0.229757 6.65764 0.622362 6.93735L4.4569 8.12611L13.4752 2.60186C13.9012 2.32215 14.2563 2.46201 13.9722 2.74172L6.65821 9.17502Z" fill="white"/>
+                            </svg>
+                        </a>
+                        
+                        <a href="#">
+                            <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7471 2.49701C16.1557 2.7591 15.5203 2.93618 14.8523 3.01622C15.5415 2.60383 16.0572 1.95476 16.303 1.19014C15.6555 1.57476 14.9468 1.84549 14.2077 1.99056C13.7108 1.45992 13.0525 1.1082 12.3351 0.990017C11.6178 0.87183 10.8815 0.993784 10.2405 1.33694C9.59959 1.6801 9.08987 2.22527 8.79051 2.88781C8.49116 3.55034 8.41891 4.29317 8.58499 5.00097C7.27293 4.9351 5.98939 4.59407 4.81766 4.00003C3.64594 3.40599 2.61221 2.57221 1.78357 1.55281C1.50024 2.04156 1.33732 2.60822 1.33732 3.21172C1.33701 3.75501 1.47079 4.28998 1.72682 4.76916C1.98284 5.24834 2.35319 5.65692 2.80499 5.95864C2.28102 5.94197 1.76861 5.80039 1.3104 5.54568V5.58818C1.31035 6.35016 1.57393 7.0887 2.05641 7.67847C2.53889 8.26824 3.21056 8.67292 3.95745 8.82385C3.47138 8.9554 2.96177 8.97477 2.46711 8.88052C2.67784 9.53616 3.08832 10.1095 3.64108 10.5203C4.19385 10.931 4.86122 11.1586 5.54978 11.1713C4.38091 12.0888 2.93737 12.5866 1.45136 12.5844C1.18813 12.5845 0.925125 12.5691 0.663696 12.5383C2.17208 13.5082 3.92794 14.0229 5.7212 14.0209C11.7916 14.0209 15.1102 8.99314 15.1102 4.63264C15.1102 4.49097 15.1066 4.34789 15.1002 4.20622C15.7457 3.73941 16.3029 3.16136 16.7457 2.49914L16.7471 2.49701Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="link mobile_app">
+                    <h3>mobile APP</h3>
+                    <div class="line"></div>
+
+                    <div class="mobile app_store">
+                        <div>
+                            <svg width="27" height="31" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.0057 16.3563C21.9912 13.8921 23.1077 12.0349 25.3624 10.6654C24.1014 8.85879 22.1936 7.86514 19.6787 7.67363C17.2976 7.48574 14.6924 9.06113 13.7385 9.06113C12.7304 9.06113 10.4251 7.73867 8.61123 7.73867C4.86787 7.79648 0.889648 10.7232 0.889648 16.6779C0.889648 18.4376 1.21123 20.2551 1.85439 22.1268C2.71436 24.591 5.81455 30.6288 9.04844 30.5312C10.7395 30.4915 11.9354 29.3316 14.1359 29.3316C16.2714 29.3316 17.3771 30.5312 19.2632 30.5312C22.526 30.4843 25.3299 24.9957 26.1465 22.5242C21.7708 20.461 22.0057 16.4828 22.0057 16.3563ZM18.2081 5.33584C20.04 3.16064 19.8738 1.18057 19.8196 0.46875C18.2009 0.562695 16.3292 1.5708 15.2633 2.81016C14.089 4.13984 13.3988 5.78389 13.547 7.6375C15.2958 7.77119 16.8929 6.87148 18.2081 5.33584Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span>Download on the</span>
+                            <p>App Store</p>
+                        </div>
+                    </div>
+                    <div class="mobile google_play">
+                        <div>
+                            <svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_66)">
+                                <path d="M19.1763 18.2792C22.473 16.4579 24.9722 15.0701 25.1876 14.9622C25.8767 14.5935 26.5883 13.6175 25.1876 12.8595C24.7353 12.6211 22.3004 11.2765 19.1763 9.54242L14.8455 13.9432L19.1763 18.2791V18.2792Z" fill="#FFD900"/>
+                                <path d="M14.8455 13.9431L1.05565 27.9271C1.37933 27.9702 1.74475 27.8838 2.17558 27.6455C3.08009 27.1474 12.6688 21.8786 19.1763 18.2802L14.8455 13.9431Z" fill="#F43249"/>
+                                <path d="M14.8455 13.9431L19.1763 9.56394C19.1763 9.56394 3.14551 0.761209 2.17558 0.241574C1.81016 0.0238075 1.40066 -0.0408786 1.03423 0.0238075L14.8455 13.9431Z" fill="#00EE76"/>
+                                <path d="M14.8455 13.9433L1.03421 0.0240173C0.473687 0.154412 0 0.652689 0 1.67173V26.2795C0 27.2122 0.366539 27.884 1.05564 27.9488L14.8455 13.9433Z" fill="#00D3FF"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_66">
+                                <rect width="26" height="28" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div>
+                            <span>Download on the</span>
+                            <p>Google Play</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="link about">
+                    <h3>about</h3>
+                    <div class="line"></div>
+
+                    <ul>
+                        <li><a href="#">about this marketplace</a></li>
+                        <li><a href="#">frequently asked questions</a></li>
+                    </ul>
+                </div>
+                <div class="link legalese">
+                    <h3>legalese</h3>
+                    <div class="line"></div>
+
+                    <ul>
+                        <li><a href="#">terms</a></li>
+                        <li><a href="#">privacy</a></li>
+                        <li><a href="#">returns & refunds</a></li>
+                        <li><a href="#">taxes & fees</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <span>©2021 Curios Music. All rights reserved</span>
+                <img src="img/image 8.png" alt="copyrighters">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
